@@ -14,6 +14,10 @@
 		5C73099D2ADEA23B00EDB271 /* HeroAnimationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73099C2ADEA23B00EDB271 /* HeroAnimationSwiftUITests.swift */; };
 		5C7309A72ADEA23B00EDB271 /* HeroAnimationSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7309A62ADEA23B00EDB271 /* HeroAnimationSwiftUIUITests.swift */; };
 		5C7309A92ADEA23B00EDB271 /* HeroAnimationSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7309A82ADEA23B00EDB271 /* HeroAnimationSwiftUIUITestsLaunchTests.swift */; };
+		5C7309B72ADEA26A00EDB271 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7309B62ADEA26A00EDB271 /* Player.swift */; };
+		5C7309BA2ADEA38700EDB271 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7309B92ADEA38700EDB271 /* LandingScreen.swift */; };
+		5C7309BC2ADEA8F100EDB271 /* DetailPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7309BB2ADEA8F100EDB271 /* DetailPageView.swift */; };
+		5C7309BF2ADEAD8200EDB271 /* AnchorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7309BE2ADEAD8200EDB271 /* AnchorKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		5C7309A22ADEA23B00EDB271 /* HeroAnimationSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroAnimationSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7309A62ADEA23B00EDB271 /* HeroAnimationSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationSwiftUIUITests.swift; sourceTree = "<group>"; };
 		5C7309A82ADEA23B00EDB271 /* HeroAnimationSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C7309B62ADEA26A00EDB271 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5C7309B92ADEA38700EDB271 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
+		5C7309BB2ADEA8F100EDB271 /* DetailPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageView.swift; sourceTree = "<group>"; };
+		5C7309BE2ADEAD8200EDB271 /* AnchorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,9 @@
 		5C7309892ADEA23A00EDB271 /* HeroAnimationSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5C7309BD2ADEAD7700EDB271 /* Helpers */,
+				5C7309B82ADEA37900EDB271 /* Views */,
+				5C7309B52ADEA25800EDB271 /* Models */,
 				5C73098A2ADEA23A00EDB271 /* HeroAnimationSwiftUIApp.swift */,
 				5C73098C2ADEA23A00EDB271 /* ContentView.swift */,
 				5C73098E2ADEA23B00EDB271 /* Assets.xcassets */,
@@ -127,6 +138,31 @@
 				5C7309A82ADEA23B00EDB271 /* HeroAnimationSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = HeroAnimationSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5C7309B52ADEA25800EDB271 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C7309B62ADEA26A00EDB271 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C7309B82ADEA37900EDB271 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C7309B92ADEA38700EDB271 /* LandingScreen.swift */,
+				5C7309BB2ADEA8F100EDB271 /* DetailPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C7309BD2ADEAD7700EDB271 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5C7309BE2ADEAD8200EDB271 /* AnchorKey.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7309BC2ADEA8F100EDB271 /* DetailPageView.swift in Sources */,
 				5C73098D2ADEA23A00EDB271 /* ContentView.swift in Sources */,
+				5C7309BF2ADEAD8200EDB271 /* AnchorKey.swift in Sources */,
+				5C7309B72ADEA26A00EDB271 /* Player.swift in Sources */,
 				5C73098B2ADEA23A00EDB271 /* HeroAnimationSwiftUIApp.swift in Sources */,
+				5C7309BA2ADEA38700EDB271 /* LandingScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
